@@ -35,6 +35,7 @@ import rules.DTOEmployeeAccessChecker;
  */
 @RestController
 @RequestMapping("/aquamon/employees")
+@CrossOrigin(origins = "*")
 public class EmployeesController {
 
     @Autowired
